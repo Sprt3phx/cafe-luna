@@ -1,0 +1,115 @@
+/* Café Luna Menu Styles - Student Practice File */
+
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: aquamarine;
+}
+
+
+h1 {
+   color: darkblue;
+   font-size: 3.75em;
+   text-align: center;
+}
+
+.featured-items {
+   background-color: #fff8dc;
+   padding: 20px;
+   border-radius: 10px;
+   margin: 70px auto;
+   max-width: 900px;;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tag-line {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-style: italic;
+   color: darkslategray;
+   font-size: 1em;
+}
+  
+h2 {
+   color: darkgreen;
+   font-size: 2em;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.menu-items {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+   background-color: #f9f9f9;
+   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+.menu-items:hover {
+   background-color: #e0f7fa;
+   transform: scale(1.02);
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+span {
+   color: orangered;
+   float: right;
+   font-weight: bold;
+   font-size: 1.2em;
+   ;
+}
+
+footer {
+   text-align: center;
+   padding: 20px;
+   margin-top: 20px;
+}
+.footer {
+   text-align: center;
+   color: darkblue;
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+@media screen and (max-width: 728px) {
+   body {
+       font-size: 14px;
+   }
+   h1 {
+       font-size: 2.5em;
+   }
+   h2 {
+       font-size: 1.5em;
+   }
+   .featured-items, .menu-items {
+       padding: 15px;
+       margin: 15px;
+   }
+   span {
+       font-size: 1em;
+   }
+   
+}
+
+@media screen and (max-width: 400px) {
+   body {
+       font-size: 16px;
+   }
+   h1 {
+       font-size: 2.8em;
+   }
+   h2 {
+       font-size: 1.8em;
+   }
+   .featured-items, .menu-items {
+       padding: 18px;
+       margin: 18px;
+   }
+   span {
+       font-size: 1em;
+   }
+   
+}
